@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8548495202769057150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8738591792107280575}
+  - component: {fileID: 8190969697559999748}
+  - component: {fileID: 84252844477056062}
+  - component: {fileID: 1314927414054514066}
+  m_Layer: 0
+  m_Name: SPAWNENEMY
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8738591792107280575
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548495202769057150}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 15.586549, y: 7.0426865, z: 62.875668}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8190969697559999748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548495202769057150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a301218a0c38bc4181e9200e94e774e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - nome: Wave1
+    inimigos:
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    posicoesSpawn:
+    - {x: 0, y: 20, z: 70}
+    - {x: 10, y: 20, z: 80}
+    - {x: -10, y: 20, z: 80}
+    acoesInimigos:
+    - 1555
+    - 1555
+    - 1555
+    intervaloEntreSpawns: 1
+  - nome: Wave2
+    inimigos:
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    posicoesSpawn:
+    - {x: 0, y: 20, z: 70}
+    - {x: 10, y: 20, z: 80}
+    - {x: -10, y: 20, z: 80}
+    - {x: 20, y: 20, z: 90}
+    - {x: -20, y: 20, z: 90}
+    acoesInimigos:
+    - 1555
+    - 1555
+    - 16663166614666
+    - 16663166614666
+    - 16663166614666
+    intervaloEntreSpawns: 0
+  - nome: Wave3
+    inimigos:
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 7015893511673779584, guid: c62a72aa258dfb540a54631eb92108d7, type: 3}
+    - {fileID: 7015893511673779584, guid: c62a72aa258dfb540a54631eb92108d7, type: 3}
+    posicoesSpawn:
+    - {x: 0, y: 20, z: 70}
+    - {x: 10, y: 20, z: 80}
+    - {x: -10, y: 20, z: 80}
+    - {x: 20, y: 20, z: 90}
+    - {x: -20, y: 20, z: 90}
+    - {x: 30, y: 20, z: 70}
+    - {x: -30, y: 20, z: 70}
+    acoesInimigos:
+    - 1555
+    - 1555
+    - 16663166614666
+    - 16663166614666
+    - 16663166614666
+    - 166636565654556636565654665566655
+    - 166636565654556636565654665566655
+    intervaloEntreSpawns: 0
+  - nome: Wave4
+    inimigos:
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 3971856941395941804, guid: b5f67042f6fbf29419a733c5305e655f, type: 3}
+    posicoesSpawn:
+    - {x: 0, y: 20, z: 70}
+    - {x: 30, y: 20, z: 80}
+    - {x: -30, y: 20, z: 80}
+    - {x: 20, y: 20, z: 85}
+    - {x: -20, y: 20, z: 85}
+    - {x: 25, y: 20, z: 90}
+    - {x: -25, y: 20, z: 90}
+    - {x: 0, y: 20, z: 95}
+    - {x: 80, y: 20, z: 60}
+    acoesInimigos:
+    - 166626661666
+    - 166626661666
+    - 166626661666
+    - 155525551555
+    - 155525551555
+    - 166626661666
+    - 166626661666
+    - 155525551555
+    - 356565635656564565656356565633366666666666666622223333311111156565656564444445454545454
+    intervaloEntreSpawns: 0
+  - nome: Wave5
+    inimigos:
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    posicoesSpawn:
+    - {x: 0, y: 20, z: 70}
+    - {x: 10, y: 20, z: 80}
+    - {x: -10, y: 20, z: 80}
+    - {x: 0, y: 20, z: 90}
+    - {x: -30, y: 20, z: 90}
+    - {x: -40, y: 20, z: 90}
+    - {x: 30, y: 20, z: 90}
+    - {x: 40, y: 20, z: 90}
+    - {x: 50, y: 20, z: 90}
+    - {x: -50, y: 20, z: 90}
+    acoesInimigos:
+    - 1663664666
+    - 1663664666
+    - 1663664666
+    - 1663664666
+    - 1660l66
+    - 1660l66
+    - 1660l66
+    - 1660l66
+    - 15555555555555555555
+    - 15555555555555555555
+    intervaloEntreSpawns: 0
+  - nome: Wave6
+    inimigos:
+    - {fileID: 7015893511673779584, guid: c62a72aa258dfb540a54631eb92108d7, type: 3}
+    - {fileID: 7015893511673779584, guid: c62a72aa258dfb540a54631eb92108d7, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    posicoesSpawn:
+    - {x: 20, y: 20, z: 80}
+    - {x: -20, y: 20, z: 80}
+    - {x: 0, y: 20, z: 75}
+    - {x: 80, y: 20, z: 50}
+    - {x: 90, y: 20, z: 50}
+    - {x: -80, y: 20, z: 35}
+    - {x: -90, y: 20, z: 35}
+    - {x: 100, y: 20, z: 35}
+    - {x: 110, y: 20, z: 35}
+    - {x: -100, y: 20, z: 35}
+    - {x: -110, y: 20, z: 35}
+    acoesInimigos:
+    - 165456456456456356356356356
+    - 165356356356356456456456456
+    - 166616663666466646663666
+    - 36636663663666
+    - 36636663663666
+    - 46646664664666
+    - 46646664664666
+    - 36636663663666
+    - 36636663663666
+    - 46646664664666
+    - 46646664664666
+    intervaloEntreSpawns: 0
+  - nome: Wave7
+    inimigos:
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 7015893511673779584, guid: c62a72aa258dfb540a54631eb92108d7, type: 3}
+    - {fileID: 7015893511673779584, guid: c62a72aa258dfb540a54631eb92108d7, type: 3}
+    - {fileID: 7015893511673779584, guid: c62a72aa258dfb540a54631eb92108d7, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    posicoesSpawn:
+    - {x: 0, y: 20, z: 70}
+    - {x: 10, y: 20, z: 80}
+    - {x: -10, y: 20, z: 80}
+    - {x: 10, y: 20, z: 80}
+    - {x: 0, y: 20, z: 90}
+    - {x: 35, y: 20, z: 90}
+    - {x: -35, y: 20, z: 90}
+    - {x: -10, y: 20, z: 80}
+    acoesInimigos:
+    - 11662
+    - 11662
+    - 1663661466466366
+    - 1663661466466366
+    - 1663661466466366
+    - 1663661466466366
+    - 1663661466466366
+    - 11662
+    intervaloEntreSpawns: 0
+  - nome: Wave8
+    inimigos:
+    - {fileID: 7015893511673779584, guid: c62a72aa258dfb540a54631eb92108d7, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 3971856941395941804, guid: b5f67042f6fbf29419a733c5305e655f, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 7015893511673779584, guid: c62a72aa258dfb540a54631eb92108d7, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    posicoesSpawn:
+    - {x: 70, y: 20, z: 60}
+    - {x: 80, y: 20, z: 60}
+    - {x: 100, y: 20, z: 60}
+    - {x: 110, y: 20, z: 60}
+    - {x: 120, y: 20, z: 60}
+    - {x: -70, y: 20, z: 35}
+    - {x: -80, y: 20, z: 35}
+    - {x: -90, y: 20, z: 35}
+    - {x: -100, y: 20, z: 35}
+    - {x: -110, y: 20, z: 35}
+    - {x: -120, y: 20, z: 35}
+    - {x: -130, y: 20, z: 35}
+    acoesInimigos:
+    - 3565635656356563565635656
+    - 3666636666366663666636666
+    - 3565635656356563565635656
+    - 3666636666366663666636666
+    - 3565635656356563565635656
+    - 4666646666466664666646666
+    - 4555545555455554555545555
+    - 4555545555455554555545555
+    - 4666646666466664666646666
+    - 4666646666466664666646666
+    - 4666646666466664666646666
+    - 4666646666466664666646666
+    intervaloEntreSpawns: 1
+  - nome: Wave9
+    inimigos:
+    - {fileID: 9200899816737336421, guid: ed30922db279b284a81bc577619d324f, type: 3}
+    posicoesSpawn:
+    - {x: 0, y: 20, z: 60}
+    acoesInimigos:
+    - 1165666522656565
+    intervaloEntreSpawns: 0
+  intervaloEntreWaves: 2
+  esperarTodosMorrerem: 1
+--- !u!114 &84252844477056062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548495202769057150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627013a54d89b2048b38b202ff19e36e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sistemaDeSpawn: {fileID: 8190969697559999748}
+  nomeDaCenaParaCarregar: "DI\xC1LOGO 3"
+--- !u!114 &1314927414054514066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8548495202769057150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 268423566a6cdfe45be5e5df6912183a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sistemaDeSpawn: {fileID: 8190969697559999748}
+  playerPrefab: {fileID: 0}
+  player2Prefab: {fileID: 0}
