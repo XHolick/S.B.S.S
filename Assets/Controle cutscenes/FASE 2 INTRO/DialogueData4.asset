@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5c698adcb336fb42b98ca8304ef5ac8, type: 3}
+  m_Name: DialogueData4
+  m_EditorClassIdentifier: 
+  talkScript:
+  - name: 
+    text: Major, na escuta? Major!
+  - name: 
+    text: "Na escuta, voc\xEA o derrotou?"
+  - name: 
+    text: "N\xE3o h\xE1 mais nenhuma aeronave em meu radar, s\xF3 vejo os destro\xE7os
+      que restaram..."
+  - name: 
+    text: "Bom trabalho capit\xE3o, mas eu acredito que nosso trabalho est\xE1 longe
+      de acabar\u2026\r"
+  - name: 
+    text: "Estou recebendo liga\xE7\xF5es e contatos com pedidos de socorro de diversos
+      aeroportos e bases pelo pa\xEDs..."
+  - name: 
+    text: "voc\xEA consegue pousar em FINCONS para discutirmos nossos pr\xF3ximos
+      passos?"
+  - name: 
+    text: "Com certeza tenente, estou a caminho. C\xE2mbio e desligo."
+  - name: 
+    text: "Cuidado capit\xE3o\u2026 C\xE2mbio!"
