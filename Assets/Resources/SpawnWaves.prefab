@@ -1,0 +1,336 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1633289202183546010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3895269586000496299}
+  - component: {fileID: 3118379826109038952}
+  m_Layer: 0
+  m_Name: SpawnWaves
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3895269586000496299
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633289202183546010}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 963.58685, y: 1086, z: -36.91728}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3118379826109038952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1633289202183546010}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a301218a0c38bc4181e9200e94e774e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waves:
+  - nome: Wave 1
+    inimigos:
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    posicoesSpawn:
+    - {x: 0, y: 20, z: 110}
+    acoesInimigos:
+    - 15
+    intervaloEntreSpawns: 0
+  - nome: Wave 2
+    inimigos:
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    posicoesSpawn:
+    - {x: 5, y: 20, z: 70}
+    - {x: -5, y: 20, z: 70}
+    - {x: -30, y: 20, z: 80}
+    - {x: -40, y: 20, z: 80}
+    - {x: 30, y: 20, z: 80}
+    - {x: 40, y: 20, z: 80}
+    acoesInimigos:
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    - 15
+    intervaloEntreSpawns: 0
+  - nome: Wave 3
+    inimigos:
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    posicoesSpawn:
+    - {x: 80, y: 20, z: 55}
+    - {x: 90, y: 20, z: 55}
+    - {x: 100, y: 20, z: 55}
+    - {x: 110, y: 20, z: 55}
+    - {x: 120, y: 20, z: 55}
+    - {x: -80, y: 20, z: 35}
+    - {x: -90, y: 20, z: 35}
+    - {x: -100, y: 20, z: 35}
+    - {x: -110, y: 20, z: 35}
+    - {x: -120, y: 20, z: 35}
+    acoesInimigos:
+    - 35
+    - 35
+    - 35
+    - 35
+    - 35
+    - 45
+    - 45
+    - 45
+    - 45
+    - 45
+    intervaloEntreSpawns: 0
+  - nome: Wave 5
+    inimigos:
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    posicoesSpawn:
+    - {x: 0, y: 20, z: 70}
+    - {x: 5, y: 20, z: 80}
+    - {x: 30, y: 20, z: 70}
+    - {x: 35, y: 20, z: 80}
+    - {x: -30, y: 20, z: 70}
+    - {x: -35, y: 20, z: 80}
+    acoesInimigos:
+    - 155
+    - 166
+    - 155
+    - 166
+    - 155
+    - 166
+    intervaloEntreSpawns: 0
+  - nome: Wave 6
+    inimigos:
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    posicoesSpawn:
+    - {x: 75, y: 20, z: 50}
+    - {x: 80, y: 20, z: 60}
+    - {x: 85, y: 20, z: 50}
+    - {x: 90, y: 20, z: 60}
+    - {x: 95, y: 20, z: 50}
+    - {x: 105, y: 20, z: 60}
+    - {x: 110, y: 20, z: 50}
+    - {x: 115, y: 20, z: 60}
+    acoesInimigos:
+    - 35
+    - 36
+    - 35
+    - 36
+    - 35
+    - 36
+    - 35
+    - 36
+    intervaloEntreSpawns: 0.5
+  - nome: Wave 7
+    inimigos:
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 4264581422244696950, guid: f25c14fa7125f87409340eba70195658, type: 3}
+    - {fileID: 7015893511673779584, guid: c62a72aa258dfb540a54631eb92108d7, type: 3}
+    - {fileID: 7015893511673779584, guid: c62a72aa258dfb540a54631eb92108d7, type: 3}
+    - {fileID: 7015893511673779584, guid: c62a72aa258dfb540a54631eb92108d7, type: 3}
+    posicoesSpawn:
+    - {x: 0, y: 20, z: 70}
+    - {x: 5, y: 20, z: 70}
+    - {x: -5, y: 20, z: 70}
+    - {x: 0, y: 20, z: 70}
+    - {x: 5, y: 20, z: 70}
+    - {x: -5, y: 20, z: 70}
+    - {x: 0, y: 20, z: 70}
+    - {x: 5, y: 20, z: 70}
+    - {x: -5, y: 20, z: 70}
+    - {x: 0, y: 20, z: 70}
+    - {x: 5, y: 20, z: 70}
+    - {x: -5, y: 20, z: 70}
+    - {x: -45, y: 20, z: 75}
+    - {x: 45, y: 20, z: 75}
+    - {x: 0, y: 20, z: 75}
+    acoesInimigos:
+    - 15
+    - 11545555555555
+    - 11535555555555
+    - 1666
+    - 1646666666666
+    - 1636666666666
+    - 15
+    - 11545555555555
+    - 11535555555555
+    - 1666
+    - 1646666666666
+    - 1636666666666
+    - 116565654656565365656546565653656565654656565653656565
+    - 116565653656565465656536565654656565653656565654656565
+    - 116565653656565465656536565654656565653656565654656565
+    intervaloEntreSpawns: 2
+  - nome: Wave 8
+    inimigos:
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    posicoesSpawn:
+    - {x: 0, y: 20, z: 70}
+    - {x: 10, y: 20, z: 75}
+    - {x: -10, y: 20, z: 75}
+    - {x: 20, y: 20, z: 80}
+    - {x: -20, y: 20, z: 80}
+    - {x: 40, y: 20, z: 100}
+    - {x: 50, y: 20, z: 95}
+    - {x: 60, y: 20, z: 100}
+    - {x: -40, y: 20, z: 100}
+    - {x: -50, y: 20, z: 95}
+    - {x: -60, y: 20, z: 100}
+    acoesInimigos:
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    intervaloEntreSpawns: 0
+  - nome: Wave 9
+    inimigos:
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 1978044762651693250, guid: 4c5af1dedac7b0349b1bff661a2868bd, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    - {fileID: 2317026141938540216, guid: d53867a8dcebedf498b56089dd602635, type: 3}
+    posicoesSpawn:
+    - {x: 0, y: 20, z: 70}
+    - {x: 10, y: 20, z: 70}
+    - {x: -10, y: 20, z: 70}
+    - {x: 0, y: 20, z: 80}
+    - {x: 10, y: 20, z: 80}
+    - {x: -10, y: 20, z: 80}
+    - {x: 0, y: 20, z: 90}
+    - {x: 10, y: 20, z: 90}
+    - {x: -10, y: 20, z: 90}
+    - {x: -40, y: 20, z: 95}
+    - {x: -50, y: 20, z: 95}
+    - {x: -60, y: 20, z: 95}
+    - {x: -40, y: 20, z: 105}
+    - {x: -50, y: 20, z: 105}
+    - {x: -60, y: 20, z: 105}
+    - {x: 40, y: 20, z: 90}
+    - {x: 50, y: 20, z: 90}
+    - {x: 60, y: 20, z: 90}
+    - {x: 40, y: 20, z: 100}
+    - {x: 50, y: 20, z: 100}
+    - {x: 60, y: 20, z: 100}
+    - {x: 20, y: 20, z: 110}
+    - {x: 30, y: 20, z: 110}
+    - {x: -20, y: 20, z: 110}
+    - {x: -30, y: 20, z: 110}
+    acoesInimigos:
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 1555
+    - 110l666
+    - 110l666
+    - 110l666
+    - 110l666
+    intervaloEntreSpawns: 0
+  intervaloEntreWaves: 2.5
+  checkpointInterval: 5
+  esperarTodosMorrerem: 1
