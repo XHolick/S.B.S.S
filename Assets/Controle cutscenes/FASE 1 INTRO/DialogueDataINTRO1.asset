@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5c698adcb336fb42b98ca8304ef5ac8, type: 3}
+  m_Name: DialogueDataINTRO1
+  m_EditorClassIdentifier: 
+  talkScript:
+  - name: 
+    text: "PLAYER: Algu\xE9m na escuta? Algum sobrevivente na escuta?"
+  - name: 
+    text: "R\xE1dio: <est\xE1tica>"
+  - name: 
+    text: "Droga\u2026"
+  - name: 
+    text: "<est\xE1tica>... ...bio, n\xF3s sobreviv\u2026, aeropor\u2026 cons\u2026
+      <est\xE1tica>"
+  - name: 
+    text: 'Player: Qual o nome do aeroporto?'
+  - name: 
+    text: "<est\xE1tica>\u2026 AEROPORTO FINCONS!!!!!! <est\xE1tica>"
+  - name: 
+    text: Se protejam, eu estou a caminho
