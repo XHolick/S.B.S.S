@@ -1,0 +1,686 @@
+fileFormatVersion: 2
+guid: c533af8aea392964a88cd235ae214aa3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: menuOn
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1997
+        width: 255
+        height: 253
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973fe7b149fccd64c829860ecf3c3c79
+      internalID: 917900993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: menuOff
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1997
+        width: 253
+        height: 253
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0da6a2437140c07448304d83ae723385
+      internalID: -539196359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soundOn
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 2077
+        width: 168
+        height: 167
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1f35596699706041a68d07da9d997c6
+      internalID: -228186112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pauseOn
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 2077
+        width: 169
+        height: 167
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c8ef7d8f54b0c54299d9cc2e206557a
+      internalID: -1963836106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LifeBoss
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 2067
+        width: 1454
+        height: 113
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 630a9da8511025e46a375578ae21f2c3
+      internalID: -1855265121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiBarBlack
+      rect:
+        serializedVersion: 2
+        x: 2690
+        y: 0
+        width: 883
+        height: 2295
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cffa7da33599094a8f40b1b4ef10972
+      internalID: -1796888011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RestartOn
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1716
+        width: 255
+        height: 255
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9584da972d62e5548941312341767161
+      internalID: 503520963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: restartOff
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1716
+        width: 253
+        height: 255
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef286a84814c025408edfcc7203f2cba
+      internalID: -2131950804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soundOff
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 1894
+        width: 168
+        height: 169
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7b0341a62d8694382706cd613ca004
+      internalID: 1817431633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pauseOff
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1894
+        width: 169
+        height: 169
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a170fa3727c794c428eae6af982399b8
+      internalID: -1565195213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiBarGray
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 676
+        width: 807
+        height: 1353
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ad037e910322df4dadd5606ece7d659
+      internalID: 2086441181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playOn
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 1702
+        width: 168
+        height: 170
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7b565af47e91394b84281361ea2b885
+      internalID: 1840622368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: playOff
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 1702
+        width: 169
+        height: 170
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47b7d17d765b4a44dbefee201dd07b24
+      internalID: 1339599619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: configOff
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1535
+        width: 139
+        height: 139
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 708f1cdd9349d3246bee80ad5de0db98
+      internalID: 77367433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: configOn
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1535
+        width: 139
+        height: 139
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e7bfcb912a7764786c88abaa6cad73
+      internalID: -1022941695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconBlue
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1121
+        width: 327
+        height: 324
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbeda2d4224382f4fab90c2976c918af
+      internalID: -875237385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconGreen
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 1121
+        width: 327
+        height: 324
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10504d0e40bbeff42b43690623e1c5e1
+      internalID: 1449886633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconOrange
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 1121
+        width: 327
+        height: 324
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f57d2242a3d4bc4b94c613dcc9120e1
+      internalID: -1496923380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconEmpty
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1121
+        width: 324
+        height: 324
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 665901b36841fa64b9944f24521ce645
+      internalID: 834346578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconBlueS
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 878
+        width: 195
+        height: 195
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9cb2d667aa2b774f907e7620bfe1bb0
+      internalID: -1805595226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconGreenS
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 878
+        width: 195
+        height: 195
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37978e5f871c7b646881980e83bee7c1
+      internalID: 1324771737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IconOrangeS
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 878
+        width: 195
+        height: 195
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc58fcd2f8d3ccb46a4c5e10038c981b
+      internalID: 1685544350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiBase_22
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 29
+        width: 783
+        height: 803
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d38542dd59f09348b08adc926e009b7
+      internalID: -1573856400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeGreen
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 589
+        width: 161
+        height: 189
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5821a61fe0326489e23f3f3cb219ca
+      internalID: 1819885919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeBlue
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 579
+        width: 169
+        height: 195
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac46c261d866794f98bb31a257030fa
+      internalID: 1562647997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lifeOrange
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 581
+        width: 161
+        height: 189
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14817c91ff2e4a94bbc2971391adf69c
+      internalID: 1235420388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 688eea0dfd1821849b276b671e817980
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      IconBlue: -875237385
+      IconBlueS: -1805595226
+      IconEmpty: 834346578
+      IconGreen: 1449886633
+      IconGreenS: 1324771737
+      IconOrange: -1496923380
+      IconOrangeS: 1685544350
+      LifeBoss: -1855265121
+      RestartOn: 503520963
+      configOff: 77367433
+      configOn: -1022941695
+      lifeBlue: 1562647997
+      lifeGreen: 1819885919
+      lifeOrange: 1235420388
+      menuOff: -539196359
+      menuOn: 917900993
+      pauseOff: -1565195213
+      pauseOn: -1963836106
+      playOff: 1339599619
+      playOn: 1840622368
+      restartOff: -2131950804
+      soundOff: 1817431633
+      soundOn: -228186112
+      uiBarBlack: -1796888011
+      uiBarGray: 2086441181
+      uiBase_22: -1573856400
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
