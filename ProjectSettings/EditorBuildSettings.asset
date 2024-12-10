@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Logo Unity.unity
+    guid: 3f9729355523280409eca4b727615b6d
+  - enabled: 1
+    path: Assets/Scenes/Menucena.unity
+    guid: 8e8a3134beabeef43a3a1fbf85891a25
+  - enabled: 1
+    path: Assets/Scenes/cenaconfig.unity
+    guid: de09659270498f1469787534c9cc9df0
+  - enabled: 1
+    path: Assets/Scenes/cenaLoad.unity
+    guid: 270c944ed64e68b4b9f22aa89b96d77f
+  - enabled: 1
+    path: Assets/Controle cutscenes/FASE 1 INTRO/DIALOGO 1.unity
+    guid: 3d5bfea193caa2146b4a61122ec6173e
+  - enabled: 1
+    path: Assets/Scenes/faseRIO.unity
+    guid: 06d9735d1c39f094bbd63502e60c5bad
+  - enabled: 1
+    path: Assets/cenaDerrotario.unity
+    guid: 198333056e455ec4782916f4db55eccc
+  - enabled: 1
+    path: Assets/Scenes/BOSS1faseRIO.unity
+    guid: 104db682bfd905b49a4fdcac586e1642
+  - enabled: 1
+    path: Assets/Cena Derrota/cenaDerrotaBOSSRIO.unity
+    guid: d7d36f8c6d8163a42b56c7b23fc16c46
+  - enabled: 1
+    path: "Assets/Controle cutscenes/FASE 1 OUTRO - BOSS1/DI\xC1LOGO 2.unity"
+    guid: 0ad5c3317610f264c8c23c5f10680ffa
+  - enabled: 1
+    path: Assets/faseBH.unity
+    guid: e4fb6c2c58f82af458e70ebf1da2f728
+  - enabled: 1
+    path: Assets/Scenes/derrotaBH.unity
+    guid: 10e3a559e91b6304583768ac8e2ecbe9
+  - enabled: 1
+    path: "Assets/Controle cutscenes/FASE 2 INTRO/DI\xC1LOGO 3.unity"
+    guid: 111d91aeecb702e4f982684e141c1ee5
+  - enabled: 1
+    path: Assets/Scenes/BOSS2fasebh.unity
+    guid: 36d6b73fc139a9c49b5dd071d99420dd
+  - enabled: 1
+    path: "Assets/Controle cutscenes/FASE 2 OUTRO/DI\xC1LOGO 4 - final.unity"
+    guid: ad4b03093c86c824f826e81a01cebe03
+  - enabled: 1
+    path: Assets/Controle cutscenes/DIALOGOFinal/cenaVITORIA.unity
+    guid: 8f0f329cbbce79f40a0af8f7b6c0077e
+  - enabled: 1
+    path: Assets/faseDerrotaBossBh.unity
+    guid: 036296e4c21713744b4d88f0d2d8178a
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
